@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="../img/home/logo.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/adaptiveIndex.css">
+
+  <title>Ритуальная служба || Уфа</title>
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="#catalog" class="burger-menu__nav-item" onclick="navItem()">Каталог</a></li>
+        <li><a href="#services" class="burger-menu__nav-item" onclick="navItem()">Услуги</a></li>
+        <li><a href="#service" class="burger-menu__nav-item" onclick="navItem()">Сервис</a></li>
+        <li><a href="#contact" class="burger-menu__nav-item" onclick="navItem()">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="header-content">
+      <img src="../img/home/logo.svg" alt="логотип" class="logo" width="80px" height="80px">
+      <nav class="nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__list-item"><a href="#catalog" class="list-item__link">Каталог</a></li>
+          <li class="nav-menu__list-item"><a href="#services" class="list-item__link">Услуги</a></li>
+          <li class="nav-menu__list-item"><a href="#service" class="list-item__link">Сервис</a></li>
+          <li class="nav-menu__list-item"><a href="#contact" class="list-item__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <!-- <a href="#contact" class="btn-link btn-link-header">ЗАКАЗАТЬ ЗВОНОК</a> -->
+      <div class="content-header-right">
+        <a href="tel:+89373202222" class="header__phone-link">8 937 320 22 22</a>
+        <div class="burger-button" onclick="openBurgerMenu()">
+          <span class="burger-button__span"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section home-section">
+      <div class="home-title-container">
+        <a href="#services" class="btn-link">услуги и товары</a>
+        <h1 class="section-title home-title">Ритуальная <br class="home-br"> служба Уфы</h1>
+      </div>
+      <div class="home-img-container">
+        <img src="../img/home/angel.png" alt="статуя ангела" class="angel-img" width="500px">
+      </div>
+    </section>
+
+    <section class="section cards-section">
+      <div class="home-card">
+        <img src="../img/home/icon1.png" alt="красный венок" class="home-card__img" width="150px">
+        <p class="home-card__text">Мы помогаем достойно проводить близких в последний путь и берём все хлопоты по организации процессии на себя</p>
+      </div>
+      <div class="home-card">
+        <img src="../img/home/icon2.png" alt="красный агент" class="home-card__img" width="150px">
+        <p class="home-card__text">Организуем церемонию с учетом традиций и пожеланий семьи.</p>
+      </div>
+      <div class="home-card">
+        <img src="../img/home/icon3.png" alt="красная ваза" class="home-card__img" width="150px">
+        <p class="home-card__text">Предлагаем гробы, венки, кресты, памятники и другие ритуальные принадлежности.</p>
+      </div>
+      <div class="home-card">
+        <img src="../img/home/icon4.png" alt="24 4" class="home-card__img" width="150px">
+        <p class="home-card__text">Действуем оперативно и быстро, обеспечивая надежную поддержку не теряя при этом качество оказания услуг.</p>
+      </div>
+    </section>
+
+    <section class="section border-section">
+      <div class="border-father">
+        <img src="../img/border/border1.png" alt="" class="border-full">
+        <img src="../img/home/photo.jpg" alt="" class="border-img">
+      </div>
+    </section>
+
+    <section class="section hall-section" id="catalog">
+      <div class="title-container">
+        <h2 class="section-title">Выставочный зал</h2>
+        <p class="sub-title">Предлагаем для вас каталог основных <br> принадлежностей по наиболее низким ценам.</p>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="../img/hall/photo1.png" alt="гробы" class="card__img" width="300px">
+          <p class="card__text">Каталог гробов</p>
+        </div>
+        <div class="card">
+          <img src="../img/hall/photo2.png" alt="dtyrb" class="card__img" width="300px">
+          <p class="card__text">Каталог венков </p>
+        </div>
+        <div class="card">
+          <img src="../img/hall/photo3.png" alt="кресты" class="card__img" width="300px">
+          <p class="card__text">Каталог крестов </p>
+        </div>
+        <div class="card">
+          <img src="../img/hall/photo4.png" alt="Ритуальный текстиль" class="card__img" width="300px">
+          <p class="card__text">Ритуальный текстиль</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section price-section" id="price">
+
+        <div class="content-top">
+          <div class="title-one">
+            <h2 class="section-title price-title">Стоимость <br> ритуальных услуг</h2>
+            <p class="sub-title sub-title-price">Мы предлагаем прозрачные и доступные цены на все наши услуги, обеспечивая высокое качество обслуживания независимо от выбранного пакета, так как у нас собственное производство и цены соответственно ниже чем у конкурентов.</p>
+          </div>
+          <img src="../img/price/redForest.png" alt="красные ветки" class="red-forest">
+        </div>
+
+        <div class="content-bottom">
+          <div class="title-two">
+            <h2 class="section-title price-title">Цена на ритуальные <br> услуги </h2>
+            <p class="sub-title sub-title-price">Понимая финансовые трудности, с которыми могут столкнуться семьи, мы стремимся предоставить гибкую систему цен и индивидуальный подход к каждому клиенту.</p>
+          </div>
+          <div class="price-img-container">
+            <img src="../img/price/whiteForest.png" alt="белые ветки" class="white-forest">
+            <img src="../img/price/vaza.png" alt="ваза" class="vaza">
+          </div>
+        </div>
+
+    </section>
+
+    <section class="section services-section" id="services">
+      <h2 class="section-title services-title">Услуги агентства</h2>
+      <div class="card-container services-card-container">
+        <div class="card">
+          <img src="../img/services/services1.png " alt="Ритуальный агент" class="card__img" width="300px" height="200px">
+          <p class="card__text">Ритуальный агент</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services2.png" alt="Ритуальный транспорт" class="card__img" width="300px" height="200px">
+          <p class="card__text">Ритуальный транспорт</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services3.png" alt="Организация похорон" class="card__img" width="300px" height="200px">
+          <p class="card__text">Организация похорон</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services4.png" alt="Отпевание в церкви" class="card__img" width="300px" height="200px">
+          <p class="card__text">Отпевание в церкви</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services5.png" alt="Поминальный обед" class="card__img" width="300px" height="200px">
+          <p class="card__text">Поминальный обед</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services6.png" alt="нахождения места для могилы" class="card__img" width="300px" height="200px">
+          <p class="card__text">нахождения места для могилы</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services7.png" alt="Кремация человека" class="card__img" width="300px" height="200px">
+          <p class="card__text">Кремация</p>
+        </div>
+        <div class="card">
+          <img src="../img/services/services8.png" alt="Изготовление памятников" class="card__img" width="300px" height="200px">
+          <p class="card__text">Изготовление памятников</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-section" id="service">
+      <h2 class="section-title service-title">Ритуальный сервис <br> высокого качества</h2>
+      <p class="service-text">
+        Наши опытные сотрудники гарантируют высокий уровень сервиса, уважительное отношение и внимательность к деталям на каждом этапе организации похорон.
+        <br>
+        <br>
+        Мы понимаем, насколько важен этот момент для близких усопшего, и стремимся сделать процесс прощания максимально достойным и комфортным. Наша команда сопровождает вас на каждом шаге, помогая с выбором ритуальных принадлежностей, организацией церемонии и оформлением необходимых документов.</p>
+    </section>
+
+    <section class="section tradition-section">
+      <h2 class="section-title tradition-title">Традиции и обычаи</h2>
+      <div class="card-container tradition-card-container">
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition1.png" alt="Православные" class="card__img" width="300px">
+          <p class="card__text">Православные</p>
+        </div>
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition2.png" alt="Мусульманские" class="card__img" width="300px">
+          <p class="card__text">Мусульманские</p>
+        </div>
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition3.png" alt="Иудейские" class="card__img" width="300px">
+          <p class="card__text">Иудейские</p>
+        </div>
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition4.png" alt="Католическая" class="card__img" width="300px">
+          <p class="card__text">Католическая</p>
+        </div>
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition5.png" alt="Иудейские" class="card__img" width="300px">
+          <p class="card__text">Для военных</p>
+        </div>
+        <div class="card tradition-card">
+          <img src="../img/tradition/tradition6.png" alt="Католическая" class="card__img" width="300px">
+          <p class="card__text">Детские</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="left-contact">
+        <h2 class="section-title contact-left-title">Полезная <br> информация</h2>
+        <p class="info-contact">Мы всегда готовы ответить на ваши вопросы и помочь с выбором ритуальных принадлежностей, организацией похорон и соблюдением традиций, так как имеем опыт более 20 лет</p>
+      </div>
+      <div class="right-contact">
+        <h2 class="section-title contact-right-title">Нужна консультация?</h2>
+        <div class="form-container">
+
+          <form action="" class="contact-form" id="contactForm">
+            <div class="name-input input-container">
+              <label for="name" class="label">Ваше имя</label>
+              <input type="text" name="name" required  id="name" class="input">
+            </div>
+            <div class="phone-input input-container">
+              <label for="phone" class="label">Ваш телефон</label>
+              <input type="tel" name="phone" id="phone" placeholder="+7 *** *** ****" required  class="input">
+              <!-- <input type="submit" hidden/> -->
+              <button type="submit" class="contact-form-submit">Отправить</button>
+            </div>
+          </form>
+
+          <div class="form-img-container">
+            <img src="../img/footer/forestWhite.png" alt="ветки" class="contact-img contact-forest" width="500px">
+            <img src="../img/footer/phone.png" alt="красный телефон в руке" class="contact-img contact-phone" width="400px">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- test -->
+     <!-- <div class="phone-viget">
+      <img src="../img/home/phoneViget.svg" alt="трубка телефона" class="phone-viget__img" width="50px">
+      <a href="tel:+89373202222" class="phone-viget__phone-link">8 937 320 22 22</a>
+     </div> -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="info-footer"></div>
+    <img src="../img/footer/AngelFooter.png" alt="ангел" class="footer-angel" width="600px">
+  </footer>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js" defer=""></script>
+  
+  <script src="../js/index.js"></script>
+  <script src="../js/form.js"></script>
+</body>
+</html>
