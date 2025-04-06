@@ -301,8 +301,8 @@ body {
 
 .home-card__text {
   margin: 0 25px;
-  font-family: "Luckiest Guy", cursive;
-  font-weight: 400;
+  font-family: "Open Sans";
+  font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.5px;
   color: var(--blackTextColor);
